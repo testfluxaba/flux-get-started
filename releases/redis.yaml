@@ -7,7 +7,7 @@ metadata:
   annotations:
     fluxcd.io/automated: "true"
     fluxcd.io/tag.chart-image: semver:~5.0
-    fluxcd.io/locked: "true"
+    fluxcd.io/locked: "false"
     fluxcd.io/locked_msg: "Halt updates for now"
     fluxcd.io/locked_user: "Stefan Prodan <stefan@weave.works>"
 spec:
