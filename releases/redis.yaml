@@ -18,12 +18,12 @@ spec:
     version: 10.3.1
   valueFileSecrets:
     # the redis-auth secret contains the password value
-    - name: redis-auth
+  - name: redis-auth
   values:
     usePassword: true
     image:
       repository: bitnami/redis
-      tag: 5.0.8
+      tag: 5.0.9
     service:
       type: ClusterIP
       port: 6379
